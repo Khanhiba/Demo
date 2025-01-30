@@ -1,4 +1,4 @@
 # Tech form
-this is first demo repo
+this is tech repo repo
 <br>
 Author - Hiba
