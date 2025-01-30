@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tech_form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- form start -->
+            <form action="/action_page.php" id="form1">
+                 <div id="header" class="box">
+                    Contact Us
+                 </div>
+                 <!-- Name section -->
+                 <div class="box" id="name">
+                     <div class="inputbox">
+                        <label for="fname">
+                            first name *
+                        </label>
+                        <input type="text" id="fname" name="fname"><br>
+                    </div>
+                     <div class="inputbox">
+                        <label for="lname">
+                            Last name *
+                        </label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    
+                    <!-- Name section end -->
+                 </div>
+                 <!-- Name section end -->
+
+                 <!-- Email section -->
+                 <div class="box">
+                     <label for="email">
+                        Email *
+                     </label><br>
+                     <input type="text" id="email" name="email">
+                 </div>
+                 <!-- Email section end -->
+
+                 <!-- Query section -->
+                 <div class="box">
+                       <label for="Query-Type" class="query-label">
+                           Query Type *
+                        </label>
+                        <div class="radio-buttons">
+                            <div class="radio">
+                                <input type="radio" id="General-Enquiry" name="Query-Type" value="General-Enquiry">
+                                <label for="General-Enquiry">
+                                    General Enquiry *
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="Support-Request" name="Query-Type" value="Support-Request">
+                                <label for="Support-Request">
+                                    Support Request *
+                                 </label>
+                            </div>
+                            
+                             
+                            
+                        </div>
+                 </div>
+                 <!-- Query section-End -->
+
+                 <!-- message-box-start-->
+                 <div class="box">
+                     <label for="message-box">
+                        Message *
+                     </label>
+                     <input type="text" id="Message-text" name="message-box">
+                 </div>
+                 <!-- message-box-end-->
+
+                  <!-- Agree section -->
+                 <div class="box">
+                        <input type="checkbox" id="agree-section" name="agree">
+                        <label for="agree-section">
+                            i agree to being contact by the team *
+                        </label>
+                    
+                 </div>
+                 <!-- Agree section end -->
+
+                 <!-- submit button -->
+                 <div class="box">
+                    <button id="btn">Submit</button>
+                 </div>
+                   <!--submit button end  -->
+            </form>
+            <!-- form end -->
+        </div>
+    </div>                    
+</body>
+</html>
